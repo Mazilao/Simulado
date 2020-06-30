@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simulado</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script src="script.js"></script>
+
+</head>
+
+<script type="text/javascript">
+		document.write(Date());
+		var usuario = prompt("Digite o seu nome: ", "Nome");
+		document.getElementById("nome".innerHTML=" Seja bem-vindo"+usuario+"!");
+		alert("Olá " +usuario+", seja bem vindo!");
+</script>
+<body>
+
+	<div id="geral">
+		<div id="cabecalho"> 
+			<br>
+			<br>
+			<p>Bem vindo aluno, nós te provaremos que Matemática não é um bicho de sete cabeça que a maioria fala, confie em você, você pode mudar o mundo!!!</p>
+			<br>
+			<p>Lembre-se que os grandes Matemáticos da história também foram igual a vocês, iniciantes!</p>
+			<br>
+			<br>
+		</div>
+
+		<div id="corpo">
+			<br>
+			<br>
+			<p>1) Após somar 10 + 10 + 15 encontra-se:
+			</p>
+			<br>
+			<input id="num1" type="number" placeholder="Digite aqui a resposta">
+    		<br>
+    		<br>
+
+    		<br>
+			<br>
+			<p>2) Qual é a solução da expressão numérica a seguir?
+				<br>
+				<br>
+				(2)<sup>8</sup>
+			</p>
+			<br>
+			<input id="num2" type="number" placeholder="Digite aqui a resposta">
+    		<br>
+    		<br>
+
+    		<br>
+			<br>
+			<p>3) Uma fábrica de sapatos possui 5235 pares de calçados em estoque e recebe um pedido, de um único cliente, de 4989 pares de calçados. <br> Quantos calçados sobraram em estoque após a entrega desse pedido?
+			<br>
+			</p>
+			<br>
+			<input id="num3" type="number" placeholder="Digite aqui a resposta">
+    		<br>
+    		<br>
+
+		<button onclick="Verificar()">Enviar</button>	
+		</div>
+
+	</div>
+
+</body>
+</html>
